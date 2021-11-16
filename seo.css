@@ -1,0 +1,119 @@
+body {
+	width: 100%;
+	margin: 0;
+	background-color: rgb(19 14 10);
+}
+.header {
+	height: 230px;
+	}
+
+.menu {
+	display:block;
+	background:linear-gradient(to top, rgb(111 91 75), rgb(16 12 9));
+	color:white;
+	height:50px; 
+	border-bottom: 3px solid rgb(72 48 24);}
+
+.menu_list {
+	display:flex;
+	height:100%;
+	list-style-type:none;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0;}
+
+.menu_item {
+	font-size:120%;
+	text-transform: uppercase;
+	border-right: 1px solid white;
+	padding-inline: 85px;}
+
+.menu_item:last-child{
+	border-right: none;}
+
+.menu_itemlink {
+	color: rgb(210 201 175);
+	text-decoration: none;}
+
+.logo {
+	display:block;
+	width:645px;
+	height:182px;
+	background: url(logo.png) center center no-repeat;
+	font-size:0;
+	margin:0 auto;}
+
+.logo_link {
+	display:block;
+	width:100%;
+	height:100%;}
+
+.man {
+	display:block;
+	background: url(man.png) right no-repeat;
+	width:100%;
+	height:254px;
+    margin-top: -193px;}
+
+.main {
+	display:block;
+	height:570px;
+	background-color: rgb(19 14 10);}
+
+.top{
+	width:645px;
+	height:392px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 3px;}
+
+.top_content{
+	display:flex;
+	width:100%;
+	height:172px;
+	background: url(Shape.png) center center no-repeat;
+	padding-top: 8px;
+	margin-left: -8px;}
+
+.top_content:first-child{
+	padding-left: 16px;
+}
+
+.block{
+	display:flex;
+	flex-direction: column;
+	width:209px;
+	height:162px;
+	align-items: center;
+	font-size: 83%;
+	border-right: 1px solid;
+	border-image: linear-gradient(to bottom, rgb(238 238 238 ), rgb(230 230 230), rgb(238 238 238));
+    border-image-slice: 1
+}
+
+.block:last-child{
+	border-right: none;
+}
+
+.my_button{
+	width:86px;
+	height:18px;
+	text-align: center;
+	background-color: rgb(242 236 219);
+	border: 1px solid white;
+	border-radius: 3px 3px 0 0;}
+
+.my_button a {
+	text-decoration: none;
+	color: black;
+	display: block;
+    text-align: center;
+    height: 100%;
+    width: 100%;}
+
+.b1 {margin-top: 8px;}
+.b2 {margin-top: 14px;}
+.b3 {margin-top: 11px;}
+
+
+
